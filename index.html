@@ -1,64 +1,125 @@
+<!-- Copyright 2018 Robert Carnell -->
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
   <head>
-    <meta charset='utf-8' content=""/>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'/>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>Rob Carnell</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Carnell-Rettgers Genealogy">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <meta name="copyright" content="2018 Robert Carnell">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--Favicon images-->
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <title>CaRnell Data Science</title>
   </head>
 
   <body>
-    <div id="container">
-      <div class="inner">
 
-        <header>
-          <h1>Rob Carnell</h1>
-          <h2>Leader, Data Scientist, Statistician, Nuclear Engineer, Physicist, Charity rider</h2>
-          <h4>bertcarnell.github.io</h4>
-        </header>
+    <!-- Header -->
+    <div id="includeHeader"></div><script>$("#includeHeader").load("navbar1.html");</script>
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/bertcarnell" id="view-on-github" class="button"><span>View on GitHub</span></a>
-          <a href="https://r-forge.r-project.org/users/bertcarnell/" id="view-on-rforge" class="button"><span>View on RForge</span></a>
-        </section>
+    <div class="container-fluid">
+      <div class="jumbotron-fluid" style="padding-left:15px">
+        <h1>Rob Carnell</h1>
+        <h3>Leader, Data Scientist, Statistician, Nuclear Engineer, Physicist, Charity rider</h3>
+        <p>bertcarnell.github.io</p>
+      </div>
+    </div>
 
-        <hr>
+    <hr>
 
-        <section id="main_content">
-          <h3>Versioning</h3>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-9 col-sm-offset-1">
+          <h2>Versioning</h2>
           <ul>
             <li><a href="http://semver.org/">Semantic Versioning</a></li>
           </ul>
-          <h3>Data Websites</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3 col-sm-offset-1">
+          <h2>Data Websites</h2>
           <ul>
             <li><a href="https://www.zooniverse.org/">Zooniverse</a></li>
             <li><a href="http://spacehack.org/">Spacehack</a></li>
             <li><a href="http://www.diygenomics.org/">DIY Genomics</a></li>
           </ul>
-          <h3>Other Open Source Contributions</h3>
+        </div>
+        <div class="col-sm-3">
+          <h2>Other Open Source Contributions</h2>
           <ul>
             <li>Bowtie memory leak fix: <a href="http://sourceforge.net/p/bowtie-bio/bugs/274/">here</a></li>
             <li>Genealogy descendent report: <a href="https://github.com/gramps-project/gramps/pull/344">here</a></li>
           </ul>
-          <h3>Public Research</h3>
+        </div>
+        <div class="col-sm-3">
+          <h2>Public Research</h2>
           <ul>
             <li><a href="https://www.usna.edu/homepage.php">US Naval Academy</a> <a href="https://www.usna.edu/TridentProgram/index.php">Trident Scholar Undergradate Research</a>: <a href="http://www.dtic.mil/dtic/tr/fulltext/u2/a359145.pdf">here</a></li>
           </ul>
           <p>For other public presentations, see my github <a href="https://github.com/bertcarnell/presentations">presentations</a> repo</p>
-        </section>
-
-        <footer>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
-
-        
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3 col-sm-offset-1">
+          <h2>Research</h2>
+          <ul>
+            <li><a href="http://www.fold3.com" target="_blank">Fold3</a></li>
+            <li><a href="http://georgiapioneers.com/" target="_blank">Georgia Pioneers</a></li>
+            <li><a href="http://www.usgwarchives.net/" target="_blank">USGenWeb Archives</a></li>
+            <li><a href="http://www.bergergirls.com/index.php">Berger Girls - Strasstown Roots</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <h2>Project Build Status</h2>
+            <ul>
+              <li>blah</li>
+              <li>blah</li>
+              <li>blah</li>
+            </ul>
+        </div>
+        <div class="col-sm-3">
+          <h2>Other</h2>
+          <ul>
+            <li>blah</li>
+            <li>blah</li>
+          </ul>
+        </div>
       </div>
     </div>
+
+    <!-- Footer -->
+    <div id="includeFooter"></div><script>$("#includeFooter").load("footer.html");</script>
+
   </body>
 </html>
