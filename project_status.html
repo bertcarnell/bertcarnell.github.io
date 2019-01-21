@@ -1,0 +1,289 @@
+<!-- Copyright 2019 Robert Carnell -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Carnell-Rettgers Genealogy">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <meta name="copyright" content="2018 Robert Carnell">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--Favicon images-->
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <title>Project Status</title>
+  </head>
+
+  <body>
+
+    <!-- Header -->
+    <div id="includeHeader"></div><script>$("#includeHeader").load("navbar1.html");</script>
+
+    <div class="container-fluid">
+      <div class="jumbotron-fluid" style="padding-left:15px">
+        <h1>Project Status</h1>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="container-fluid">
+	  <div class="table-responsive">
+	  <table class="table table-bordered table-hover" style="text-align:center;">
+		<thead>
+		  <tr>
+			<th scope="col" style="text-align:center;">Project</th>
+			<th scope="col" style="text-align:center;">Travis</th>
+			<th scope="col" style="text-align:center;">Appveyor</th>
+			<th scope="col" style="text-align:center;">Codcov</th>
+			<th scope="col" style="text-align:center;">CRAN Downloads</th>
+			<th scope="col" style="text-align:center;">CRAN</th>
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+			<th scope="row"><a href="https://github.com/bertcarnell/lhs">lhs</a></th>
+			<td>
+			  <a href="https://travis-ci.org/bertcarnell/lhs" rel="nofollow">
+				<img src="https://travis-ci.org/bertcarnell/lhs.svg?branch=master"/>
+			  </a>
+			</td>
+			<td>
+			  <a ref="https://ci.appveyor.com/project/bertcarnell/lhs/branch/master" rel="nofollow">
+				<img src="https://ci.appveyor.com/api/projects/status/5h8gjnq6a30r8y37?svg=true"/>
+			  </a>
+			</td>
+			<td>
+			  <a href="https://codecov.io/gh/bertcarnell/lhs">
+				<img src="https://codecov.io/gh/bertcarnell/lhs/branch/master/graph/badge.svg" />
+			  </a>
+			</td>
+			<td>
+			  <a href="https://cran.r-project.org/package=lhs">
+				<img src="https://cranlogs.r-pkg.org/badges/lhs" />
+			  </a>
+			</td>
+			<td>
+			  <a href="https://cran.r-project.org/package=lhs">
+				<img src="https://www.r-pkg.org/badges/version/lhs" />
+			  </a>
+			</td>
+		  </tr>
+		  <tr>
+			<th scope="row"><a href="https://github.com/bertcarnell/triangle">triangle</a></th>
+			<td>
+			  <a href="https://travis-ci.org/bertcarnell/triangle" rel="nofollow">
+				<img src="https://travis-ci.org/bertcarnell/triangle.svg?branch=master"/>
+			  </a>
+			</td>
+			<td>
+			  <a ref="https://ci.appveyor.com/project/bertcarnell/triangle/branch/master" rel="nofollow">
+				<img src="https://ci.appveyor.com/api/projects/status/qjsh224b6cuqh7rd?svg=true"/>
+			  </a>
+			</td>
+			<td>
+			  <a href="https://codecov.io/gh/bertcarnell/triangle">
+				<img src="https://codecov.io/gh/bertcarnell/triangle/branch/master/graph/badge.svg" />
+			  </a>
+			</td>
+			<td>
+			  <a href="https://cran.r-project.org/package=triangle">
+				<img src="https://cranlogs.r-pkg.org/badges/triangle" />
+			  </a>
+			</td>
+			<td>
+			  <a href="https://cran.r-project.org/package=triangle">
+				<img src="https://www.r-pkg.org/badges/version/triangle" />
+			  </a>
+			</td>
+		  </tr>
+		  <tr>
+			<th scope="row"><a href="https://github.com/bertcarnell/oa">oa</a></th>
+			<td>
+			  <a href="https://travis-ci.org/bertcarnell/oa" rel="nofollow">
+				<img src="https://travis-ci.org/bertcarnell/oa.svg?branch=master"/>
+			  </a>
+			</td>
+			<td>
+			  <a ref="https://ci.appveyor.com/project/bertcarnell/oa/branch/master" rel="nofollow">
+				<img src="https://ci.appveyor.com/api/projects/status/c25m7jk7ltx3ovs0?svg=true"/>
+			  </a>
+			</td>
+			<td>
+			  <a href="https://codecov.io/gh/bertcarnell/oa">
+				<img src="https://codecov.io/gh/bertcarnell/oa/branch/master/graph/badge.svg" />
+			  </a>
+			</td>
+			<td>-</td>
+			<td>-</td>
+		  </tr>
+		  <tr>
+			<th scope="row"><a href="https://github.com/bertcarnell/lhslib">lhslib</a></th>
+			<td>
+			  <a href="https://travis-ci.org/bertcarnell/lhslib" rel="nofollow">
+				<img src="https://travis-ci.org/bertcarnell/lhslib.svg?branch=master"/>
+			  </a>
+			</td>
+			<td>
+			  <a ref="https://ci.appveyor.com/project/bertcarnell/lhslib/branch/master" rel="nofollow">
+				<img src="https://ci.appveyor.com/api/projects/status/7xd7sohoug7c0d42?svg=true"/>
+			  </a>
+			</td>
+			<td>
+			  <a href="https://codecov.io/gh/bertcarnell/lhslib">
+				<img src="https://codecov.io/gh/bertcarnell/lhslib/branch/master/graph/badge.svg" />
+			  </a>
+			</td>
+			<td>-</td>
+			<td>-</td>
+		  </tr>
+		  <tr>
+			<th scope="row"><a href="https://github.com/bertcarnell/bclib">bclib</a></th>
+			<td>
+			  <a href="https://travis-ci.org/bertcarnell/bclib" rel="nofollow">
+				<img src="https://travis-ci.org/bertcarnell/bclib.svg?branch=master"/>
+			  </a>
+			</td>
+			<td>
+			  <a ref="https://ci.appveyor.com/project/bertcarnell/bclib/branch/master" rel="nofollow">
+				<img src="https://ci.appveyor.com/api/projects/status/ew4nolsitxr5sl5r?svg=true"/>
+			  </a>
+			</td>
+			<td>
+			  <a href="https://codecov.io/gh/bertcarnell/bclib">
+				<img src="https://codecov.io/gh/bertcarnell/bclib/branch/master/graph/badge.svg" />
+			  </a>
+			</td>
+			<td>-</td>
+			<td>-</td>
+		  </tr>
+		  <tr>
+			<th scope="row"><a href="https://github.com/bertcarnell/fry9c">fry9c</a></th>
+			<td>
+			  <a href="https://travis-ci.org/bertcarnell/fry9c" rel="nofollow">
+				<img src="https://travis-ci.org/bertcarnell/fry9c.svg?branch=master"/>
+			  </a>
+			</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		  </tr>
+		  <tr>
+			<th scope="row"><a href="https://github.com/bertcarnell/dirichlet">dirichlet</a></th>
+			<td>
+			  <a href="https://travis-ci.org/bertcarnell/dirichlet" rel="nofollow">
+				<img src="https://travis-ci.org/bertcarnell/dirichlet.svg?branch=master"/>
+			  </a>
+			</td>
+			<td>-</td>
+			<td>
+			  <a href="https://codecov.io/gh/bertcarnell/dirichlet">
+				<img src="https://codecov.io/gh/bertcarnell/dirichlet/branch/master/graph/badge.svg" />
+			  </a>
+			</td>
+			<td>-</td>
+			<td>-</td>
+		  </tr>
+		  <tr>
+			<th scope="row"><a href="https://github.com/bertcarnell/truncateddist">truncateddist</a></th>
+			<td>
+			  <a href="https://travis-ci.org/bertcarnell/truncateddist" rel="nofollow">
+				<img src="https://travis-ci.org/bertcarnell/truncateddist.svg?branch=master"/>
+			  </a>
+			</td>
+			<td>-</td>
+			<td>
+			  <a href="https://codecov.io/gh/bertcarnell/truncateddist">
+				<img src="https://codecov.io/gh/bertcarnell/truncateddist/branch/master/graph/badge.svg" />
+			  </a>
+			</td>
+			<td>-</td>
+			<td>-</td>
+		  </tr>
+		  <tr>
+			<th scope="row"><a href="https://github.com/bertcarnell/mixturedist">mixturedist</a></th>
+			<td>
+			  <a href="https://travis-ci.org/bertcarnell/mixturedist" rel="nofollow">
+				<img src="https://travis-ci.org/bertcarnell/mixturedist.svg?branch=master"/>
+			  </a>
+			</td>
+			<td>-</td>
+			<td>
+			  <a href="https://codecov.io/gh/bertcarnell/mixturedist">
+				<img src="https://codecov.io/gh/bertcarnell/mixturedist/branch/master/graph/badge.svg" />
+			  </a>
+			</td>
+			<td>-</td>
+			<td>-</td>
+		  </tr>
+		  <tr>
+			<th scope="row"><a href="https://github.com/bertcarnell/rational">rational</a></th>
+			<td>
+			  <a href="https://travis-ci.org/bertcarnell/rational" rel="nofollow">
+				<img src="https://travis-ci.org/bertcarnell/rational.svg?branch=master"/>
+			  </a>
+			</td>
+			<td>-</td>
+			<td>
+			  <a href="https://codecov.io/gh/bertcarnell/rational">
+				<img src="https://codecov.io/gh/bertcarnell/rational/branch/master/graph/badge.svg" />
+			  </a>
+			</td>
+			<td>-</td>
+			<td>-</td>
+		  </tr>
+		  <tr>
+			<th scope="row"><a href="https://github.com/bertcarnell/JavaAssertExtensions">JavaAssertExtensions</a></th>
+			<td>
+			  <a href="https://travis-ci.org/bertcarnell/JavaAssertExtensions" rel="nofollow">
+				<img src="https://travis-ci.org/bertcarnell/JavaAssertExtensions.svg?branch=master"/>
+			  </a>
+			</td>
+			<td>-</td>
+			<td>
+			  <a href="https://codecov.io/gh/bertcarnell/JavaAssertExtensions">
+				<img src="https://codecov.io/gh/bertcarnell/JavaAssertExtensions/branch/master/graph/badge.svg" />
+			  </a>
+			</td>
+			<td>-</td>
+			<td>-</td>
+		  </tr>
+		</tbody>
+	  </table>
+	  </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="includeFooter"></div><script>$("#includeFooter").load("footer.html");</script>
+
+  </body>
+</html>
